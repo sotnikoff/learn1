@@ -65,5 +65,26 @@ header{
 }
 #deals_left_column,#deals_right_column{
     flex-basis: 555px;
-    background-color: #f16d7f;
+}
+#deals_men{
+    width: 555px;
+    height: 542px;
+    background: url("../img/men.png") no-repeat top left;
+    position: relative;
+}
+.badge{
+    background-color: #FFFFFF;
+    padding: 15px;
+    position: absolute;
+    top: 25px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.badge_sub{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.badge_accent{
+    font-size: 30px;
+    color: #f16d7f;
 }
