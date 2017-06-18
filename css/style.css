@@ -1,6 +1,7 @@
 body,html{
     font-family: 'Lato', sans-serif;
     font-size: 16px;
+    color: rgb(34, 34, 34);
 }
 header{
     width: 1140px;
@@ -59,17 +60,39 @@ header{
 #deals{
     display: flex;
     width: 1140px;
-    height: 500px;
     margin: 100px auto;
     justify-content: space-between;
 }
-#deals_left_column,#deals_right_column{
+#deals_left_column{
     flex-basis: 555px;
+}
+#deals_right_column{
+    flex-basis: 560px;
 }
 #deals_men{
     width: 555px;
     height: 542px;
     background: url("../img/men.png") no-repeat top left;
+    position: relative;
+    margin-bottom: 20px;
+}
+#deals_accesories{
+    width: 555px;
+    height: 261px;
+    background: url("../img/accesory.png") no-repeat top left;
+    position: relative;
+}
+#deals_women{
+    width: 560px;
+    height: 261px;
+    background: url("../img/women.png") no-repeat top left;
+    position: relative;
+    margin-bottom: 20px;
+}
+#deals_kids{
+    width: 560px;
+    height: 542px;
+    background: url("../img/kids.png") no-repeat top left;
     position: relative;
 }
 .badge{
@@ -87,4 +110,48 @@ header{
 .badge_accent{
     font-size: 30px;
     color: #f16d7f;
+}
+#featured{
+    margin: 0 auto;
+    width: 1140px;
+}
+#featured h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+}
+#featured_sub_header{
+    font-size: 14px;
+    color:#9f9f9f;
+    text-align: center;
+}
+#items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    margin-top: 60px;
+}
+.item{
+    width: 261px;
+}
+.item_description{
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.item_description_title{
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.item_description_price{
+    font-size: 16px;
+    font-weight: 700;
+    color: #f16d7f;
+}
+.item_photo{
+    width: 100%;
+    height: 280px;
+
 }
