@@ -189,6 +189,15 @@ header{
 .red{
     color:#f16d7f;
 }
+.bold{
+    font-weight: 700;
+}
+.small{
+    font-size: 12px;
+}
+.light{
+    font-weight: 300;
+}
 #big_offer_image{
     background: url("../img/image.png");
     width: 767px;
@@ -244,19 +253,25 @@ header{
 }
 #reviews_section{
     width: 50%;
+    display: flex;
+    align-items: center;
 }
 #reviews_subscribe{
     width: 50%;
 }
 .review{
     display: flex;
+    align-items: flex-start;
 }
 .review_photo{
 
 }
 .review_description{
+    padding: 20px;
+
 
 }
 .review_description blockquote{
-
+    margin-bottom: 20px;
+    font-style: italic;
 }
