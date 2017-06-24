@@ -171,6 +171,23 @@ header{
     margin: 0 auto;
     background: #222224;
     display: flex;
+    position: relative;
+}
+#big_offer_discount{
+    color:#FFFFFF;
+    position: absolute;
+    font-size: 54px;
+    font-weight: 700;
+    text-transform: uppercase;
+    top:150px;
+    left: 50px;
+}
+#big_offer_discount_small{
+    font-size: 32px;
+
+}
+.red{
+    color:#f16d7f;
 }
 #big_offer_image{
     background: url("../img/image.png");
@@ -217,7 +234,7 @@ header{
     margin-top: 100px;
     width: 100%;
     height: 438px;
-    background-color: #f1f1f1;
+    background: #f1f1f1 url("../img/review_bg.png") no-repeat center top;
 }
 #reviews_container{
     width: 1140px;
