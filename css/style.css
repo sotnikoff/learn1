@@ -240,4 +240,23 @@ header{
     width: 1140px;
     margin: 0 auto;
     height: 100%;
+    display: flex;
+}
+#reviews_section{
+    width: 50%;
+}
+#reviews_subscribe{
+    width: 50%;
+}
+.review{
+    display: flex;
+}
+.review_photo{
+
+}
+.review_description{
+
+}
+.review_description blockquote{
+
 }
